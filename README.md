@@ -9,9 +9,9 @@ This project serves as a fun & experimental way of automating your soldering pro
 | ------------- | ------------- |
 | M3x10 Screw  | x1  |
 | M3x16 Screw  | x2  |
-| M3x16 NUt  | x2  |
+| M3x16 Nut  | x2  |
 | MG996R Metal Geared Servo  | x2  |
-| MG996r Pan-Tilt Kit | x1  |
+| MG996R Pan-Tilt Kit | x1  |
 | Arduino Nano | x1  |
 | Custom PCB (switch and reset button for Nano + servo/gyro male header connectors | x1  |
 | 3M Rubber Bumbpers  | x4  |
