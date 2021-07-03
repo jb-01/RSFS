@@ -27,4 +27,4 @@ This project serves as a fun & experimental way of automating your soldering pro
 # Order a Kit!
 https://voltges-store.myshopify.com/
 #
-Kits come with all necessary parts, sensors and an Arduino Nano calibrated and pre-programmed with the stabilization code.
+Each kit comes with all the necessary hardware, electronics, sensors plus a black Arduino Nano calibrated and pre-programmed with the stabilization code.
