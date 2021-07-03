@@ -20,7 +20,7 @@ void setup() {
     servo1.attach(9);
     servo2.attach(10);
     servo1.write(90);
-    servo2.write(125);
+    servo2.write(100);
     
 
     Wire.begin();
