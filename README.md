@@ -20,8 +20,8 @@ This project serves as a fun & experimental way of automating your soldering pro
 | 3D printed Body  | x1  |
 | 3D printed Gyroscope to Solder Iron Attachment  | x1  |
 | MPU6050 | x1  |
-| Female-Male Wire Jumper | x1  |
-| Female-Female Wire Jumper | x1  |
+| Female-Male Wire Jumper (30 cm)| x1  |
+| Female-Female Wire Jumper (30 cm) | x1  |
 | Mini Zip-Tie | x1  |
 
 # Order a Kit! - https://voltges-store.myshopify.com/
