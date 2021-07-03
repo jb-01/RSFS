@@ -21,3 +21,4 @@ This project serves as a fun & experimental way of automating your soldering pro
 | 3D printed Gyroscope to Solder Iron Attachment  | x1  |
 | MPU6050 | x1  |
 | Female-Male Wire Jumper | x2  |
+| Mini Zip-Tie | x1  |
