@@ -88,7 +88,7 @@ void loop() {
 					}
          
                 int servo1Value = map(yawAngles, -60, 60, 0, 180);
-                int servo2Value = map(pitchAngles, 90, -90, 60, 180);
+                int servo2Value = map(pitchAngles, 90, -90, 90, 180);
                 int swtichState = digitalRead(2);
                     if (swtichState==1){
                     servo1.write(servo1Value);
