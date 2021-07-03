@@ -18,6 +18,6 @@ This project serves as a fun & experimental way of automating your soldering pro
 | Alligator Clips  | x2  |
 | 3D printed Base  | x1  |
 | 3D printed Body  | x1  |
-| 3D printed Gyroscope-Solder Iron Attachment  | x1  |
+| 3D printed Gyroscope to Solder Iron Attachment  | x1  |
 | MPU6050 | x1  |
-| Female-Male Wire Jumpers | x2  |
+| Female-Male Wire Jumper | x2  |
