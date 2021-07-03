@@ -87,7 +87,7 @@ void loop() {
 						pitchAngles = pitchAngles - correct2;
 					}
          
-                int servo1Value = map(yawAngles, -90, 90, 0, 180);
+                int servo1Value = map(yawAngles, -60, 60, 0, 180);
                 int servo2Value = map(pitchAngles, 90, -90, 60, 180);
                 int swtichState = digitalRead(2);
                     if (swtichState==1){
