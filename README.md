@@ -29,4 +29,5 @@ This project serves as a fun & experimental way of automating your soldering pro
 
 Each kit comes with all the necessary hardware, electronics, sensors for a robotic helping hand plus an Arduino Nano (black version) calibrated and pre-programmed with the stabilization code. Enjoy!
 
-Contact: biosbusinesses@gmail.com
+# Contact:
+biosbusinesses@gmail.com
