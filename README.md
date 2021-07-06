@@ -1,10 +1,8 @@
 # RSFS (Robotic Stabilization for Soldering)
 This project serves as a fun & experimental way of automating your soldering process! 
 
-<p float="left">
-  <img src="https://media.giphy.com/media/MgcE5n2MDfwiI/giphy.gif" width="500" height="700" />
-  <img src="https://user-images.githubusercontent.com/13397375/124617869-23792000-de2c-11eb-952c-26c3de0fdc5c.png" width="460" height="700" /> 
-</p>
+<img src="https://media.giphy.com/media/MgcE5n2MDfwiI/giphy.gif" width="700" height="400">
+<img src="https://user-images.githubusercontent.com/13397375/124623830-2f1b1580-de31-11eb-8401-58f8190e194b.png" width="550" height="700">
 
 # Parts List
 | Part Name  | Quantity |
