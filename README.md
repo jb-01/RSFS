@@ -12,7 +12,7 @@ This project serves as a fun & experimental way of automating your soldering pro
 | M3x16 Nut  | x2  |
 | Micro USB Female Connector (power)  | x1  |
 | MG996R Metal Geared Servo  | x2  |
-| MG996R Pan-Tilt Kit | x1  |
+| MG996R Pan-Tilt Kit (x10 M5 screws & nuts + bearing) | x1  |
 | Arduino Nano (black version)| x1  |
 | Custom PCB (switch and reset button for Nano + servo/gyro male header connectors | x1  |
 | 3M Rubber Bumpers  | x4  |
