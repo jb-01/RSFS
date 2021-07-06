@@ -1,9 +1,10 @@
 # RSFS (Robotic Stabilization for Soldering)
 This project serves as a fun & experimental way of automating your soldering process! 
 
-![](https://media.giphy.com/media/MgcE5n2MDfwiI/giphy.gif)
-![image](https://imgur.com/a/vVcueJy)
-
+<p float="left">
+  <img src="https://media.giphy.com/media/MgcE5n2MDfwiI/giphy.gif" width="500" height="700" />
+  <img src="https://user-images.githubusercontent.com/13397375/124617869-23792000-de2c-11eb-952c-26c3de0fdc5c.png" width="460" height="700" /> 
+</p>
 
 # Parts List
 | Part Name  | Quantity |
@@ -22,8 +23,8 @@ This project serves as a fun & experimental way of automating your soldering pro
 | 3D printed Body  | x1  |
 | 3D printed Gyroscope to Solder Iron Attachment  | x1  |
 | MPU6050 | x1  |
-| Female-Male Wire Jumper (30 cm)| x1  |
-| Female-Female Wire Jumper (30 cm) | x1  |
+| Female-Male Wire Jumper (40 cm)| x1  |
+| Female-Female Wire Jumper (40 cm) | x1  |
 | Mini Zip-Tie | x1  |
 
 # Order a Kit! - https://voltges-store.myshopify.com/
