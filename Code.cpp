@@ -27,12 +27,12 @@ void setup()
     TWBR = 24;
     mpu.initialize();
     mpu.dmpInitialize();
-    mpu.setXAccelOffset(-5426); //XAccel calibration value (must be manually checked/inputted)
-    mpu.setYAccelOffset(-1935); //YAccel calibration value (must be manually checked/inputted)
-    mpu.setZAccelOffset(1128);  //ZAccel calibration value (must be manually checked/inputted)
-    mpu.setXGyroOffset(-41);    //XGyro calibration value (must be manually checked/inputted)
-    mpu.setYGyroOffset(84);     //YGyro calibration value (must be manually checked/inputted)
-    mpu.setZGyroOffset(75);     //ZGyro calibration value (must be manually checked/inputted)
+    mpu.setXAccelOffset(2442); //XAccel calibration value (must be manually checked/inputted)
+    mpu.setYAccelOffset(1055); //YAccel calibration value (must be manually checked/inputted)
+    mpu.setZAccelOffset(1272);  //ZAccel calibration value (must be manually checked/inputted)
+    mpu.setXGyroOffset(179);    //XGyro calibration value (must be manually checked/inputted)
+    mpu.setYGyroOffset(26);     //YGyro calibration value (must be manually checked/inputted)
+    mpu.setZGyroOffset(47);     //ZGyro calibration value (must be manually checked/inputted)
     mpu.setDMPEnabled(true);
     packetSize = mpu.dmpGetFIFOPacketSize();
     fifoCount = mpu.getFIFOCount();
@@ -96,7 +96,7 @@ void loop()
             }
 
             int servo1Value = map(yawAngles, -60, 60, 0, 180);
-            int servo2Value = map(pitchAngles, 50, -50, 70, 180);
+            int servo2Value = map(pitchAngles, 30, -60, 70, 180);
             int swtichState = digitalRead(2);
             if (swtichState == 1)
             {
