@@ -2,7 +2,6 @@
 #include "MPU6050_6Axis_MotionApps20.h"
 #include "Wire.h"
 #include "Servo.h"
-
 MPU6050 mpu;
 uint16_t packetSize;
 uint16_t fifoCount;
@@ -26,7 +25,6 @@ void setup()
 
     Wire.begin();
     TWBR = 24;
-
     mpu.initialize();
     mpu.dmpInitialize();
     mpu.setXAccelOffset(-5426); //XAccel calibration value (must be manually checked/inputted)
@@ -36,9 +34,9 @@ void setup()
     mpu.setYGyroOffset(84);     //YGyro calibration value (must be manually checked/inputted)
     mpu.setZGyroOffset(75);     //ZGyro calibration value (must be manually checked/inputted)
     mpu.setDMPEnabled(true);
-
     packetSize = mpu.dmpGetFIFOPacketSize();
     fifoCount = mpu.getFIFOCount();
+
     Serial.begin(115200);
 
     pinMode(2, INPUT);
@@ -46,26 +44,34 @@ void setup()
 
 void loop()
 {
+
     while (fifoCount < packetSize)
     {
+        //insert here your code
         fifoCount = mpu.getFIFOCount();
     }
 
     if (fifoCount == 1024)
     {
+
         mpu.resetFIFO();
         Serial.println(F("FIFO overflow!"));
     }
     else
     {
+
         if (fifoCount % packetSize != 0)
         {
+
             mpu.resetFIFO();
         }
+
         else
         {
+
             while (fifoCount >= packetSize)
             {
+
                 mpu.getFIFOBytes(fifoBuffer, packetSize);
                 fifoCount -= packetSize;
             }
@@ -90,17 +96,16 @@ void loop()
             }
 
             int servo1Value = map(yawAngles, -60, 60, 0, 180);
-            int servo2Value = map(pitchAngles, 90, -90, 90, 180);
-
+            int servo2Value = map(pitchAngles, 50, -50, 70, 180);
             int swtichState = digitalRead(2);
             if (swtichState == 1)
             {
                 servo1.write(servo1Value);
                 servo2.write(servo2Value);
             }
-
             Serial.println(yawAngles);
             Serial.println(pitchAngles);
+
             Serial.println(i);
         }
     }
