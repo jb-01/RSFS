@@ -25,9 +25,8 @@ This project serves as a fun & experimental way of automating your soldering pro
 | Female-Female Wire Jumper (40 cm) | x1  |
 | Mini Zip-Tie | x1  |
 
-# Order a Kit! - https://voltges-store.myshopify.com/
 
-Each kit comes with all the necessary hardware, electronics, sensors for a robotic helping hand plus an Arduino Nano (black version) calibrated and pre-programmed with the stabilization code. Enjoy!
+
 
 # Contact:
 biosbusinesses@gmail.com
