@@ -24,9 +24,3 @@ This project serves as a fun & experimental way of automating your soldering pro
 | Female-Male Wire Jumper (40 cm)| x1  |
 | Female-Female Wire Jumper (40 cm) | x1  |
 | Mini Zip-Tie | x1  |
-
-
-
-
-# Contact:
-biosbusinesses@gmail.com
